@@ -21,7 +21,7 @@ alias ip='ifconfig | grep "inet " | grep -v 127.0.0.1'
 
 alias ...='cd ../..'
 alias reload='source ~/.bash_profile'
-alias dash='cd ~/Projects/Dashboards/VHTDashboard/app'
+alias dash='cd ~/Projects/Dashboards/VHTDashboard'
 alias uakron='cd ~/Documents/UAkron'
 alias ISP='cd ~/Documents/UAkron/ISP'
 alias WP='cd ~/Documents/UAkron/WP'
