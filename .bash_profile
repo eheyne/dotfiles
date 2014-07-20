@@ -27,7 +27,8 @@ alias ISP='cd ~/Documents/UAkron/ISP'
 alias WP='cd ~/Documents/UAkron/WP'
 alias ll='ls -la'
 alias ccat='highlight -O ansi'
-
+alias ejhwp='cd /Volumes/ejh15/public_html/assets/WP'
+alias local_server='python -m SimpleHTTPServer 8888'
 ##
 # Your previous /Users/eheyne/.bash_profile file was backed up as /Users/eheyne/.bash_profile.macports-saved_2013-11-18_at_19:24:53
 ##
