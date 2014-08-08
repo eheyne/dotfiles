@@ -27,6 +27,7 @@ command! W :w
 command! Q :q
 command! WQ :wq
 command! Wq :wq
+command! NT :NERDTreeToggle
 
 " Shortcuts to make file navigation easier
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
@@ -100,3 +101,9 @@ set mouse=a
 
 " Add Handlebars support to Vim Commentary
 autocmd Syntax handlebars set commentstring={{!\ %s\ }}
+
+" Start NERD Tree on startup 
+autocmd VimEnter * NERDTree
+
+" Move cursor to main window
+autocmd VimEnter * wincmd p
