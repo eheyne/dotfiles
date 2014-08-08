@@ -99,6 +99,9 @@ set t_vb=
 " Enable mouse functionality
 set mouse=a
 
+" Enable Fuzzy Find
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " Add Handlebars support to Vim Commentary
 autocmd Syntax handlebars set commentstring={{!\ %s\ }}
 
