@@ -102,6 +102,11 @@ set mouse=a
 " Enable Fuzzy Find
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+" Allow ctrlp to ignore certain directories
+let g:ctrlp_custom_ignore = '[\/]\.(git|hg|svn|dev|test|tmp)$'
+
+set wildignore+=*/.dev/*,*/bower_components/*,*/node_modules/*
+
 " Add Handlebars support to Vim Commentary
 autocmd Syntax handlebars set commentstring={{!\ %s\ }}
 
