@@ -40,6 +40,9 @@ map <leader>ev :vsp %%
 map <leader>et :tabe %%
 map <leader><leader> <C-^>
 
+" Shortcut to make file searching easier
+map <leader>a :Ag -i -C 2 
+
 " Why is this not a default
 set hidden
 
