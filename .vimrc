@@ -19,6 +19,9 @@ let g:solarized_termtrans=1
 colorscheme solarized
 set background=dark
 
+" Search tool
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 " Remap leader
 let mapleader = ","
 
@@ -35,6 +38,7 @@ map <leader>ew :e %%
 map <leader>es :sp %%
 map <leader>ev :vsp %%
 map <leader>et :tabe %%
+map <leader><leader> <C-^>
 
 " Why is this not a default
 set hidden

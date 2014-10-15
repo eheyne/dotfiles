@@ -1,4 +1,3 @@
-
 " Global Options
 "
 " Enable/Disable highlighting of errors in source.
@@ -11,6 +10,11 @@ if exists("b:did_jshint_plugin")
   finish
 else
   let b:did_jshint_plugin = 1
+endif
+
+" Bail out for vim-fugitive file paths...
+if stridx(expand("%:p"), "fugitive:///") == 0
+  finish
 endif
 
 let s:install_dir = expand('<sfile>:p:h')
@@ -83,7 +87,7 @@ if !exists("*s:FindRc")
     if filereadable(l:jshintrc_file)
       let s:jshintrc_file = l:jshintrc_file
     elseif len(a:path) > 1
-      call s:FindRc(fnamemodify(a:path, ":h:h"))
+      call s:FindRc(fnamemodify(a:path, ":h"))
     else
       let l:jshintrc_file = expand('~') . l:filename
       if filereadable(l:jshintrc_file)
