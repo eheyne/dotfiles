@@ -9,10 +9,10 @@
 
 ### The Setup
 
-#### Create the dotfiles directory
+#### Create the dotfiles directory in your ~ (users folder)
 
 ```bash
-$ mkdir .dotfiles
+$ cd ~
 $ git clone git@github.com:eheyne/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles
 ```
@@ -40,6 +40,9 @@ $ git commit -m "Add a new submodule: one-submodule"
 #### Symlink the new files to HOME
 
 ```bash
+ln -s ~/dotfiles/.bashrc .bashrc
+ln -s ~/dotfiles/.bash_profile .bash_profile
+ln -s ~/dotfiles/.gitignore_global .gitignore_global
 ln -s ~/dotfiles/.vim .vim
 ln -s ~/dotfiles/.vimrc .vimrc
 ```
@@ -48,7 +51,7 @@ ln -s ~/dotfiles/.vimrc .vimrc
 
 ```bash
 # Navigate to your dotfiles directory
-$ cd ~/.dotfiles
+$ cd ~/dotfiles
 # Run this one line in bash
 $ git submodule foreach git pull origin master
 ```
