@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/jshint2"]
 	path = .vim/bundle/jshint2
 	url = git@github.com:Shutnik/jshint2.vim.git
+[submodule ".vim/bundle/vim-commentary"]
+	path = .vim/bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
