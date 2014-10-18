@@ -107,7 +107,7 @@ set t_vb=
 set mouse=a
 
 " Enable Fuzzy Find
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.vim/bundle/ctrlp
 
 " Allow ctrlp to ignore certain directories
 let g:ctrlp_custom_ignore = '[\/]\.(git|hg|svn|dev|test|tmp)$'
