@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/handlebars"]
 	path = .vim/bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
+[submodule ".vim/bundle/javascript"]
+	path = .vim/bundle/javascript
+	url = git@github.com:pangloss/vim-javascript.git
