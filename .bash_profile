@@ -29,6 +29,7 @@ alias ll='ls -la'
 alias ccat='highlight -O ansi'
 alias ejhwp='cd /Volumes/ejh15/public_html/assets/WP'
 alias lws='python -m SimpleHTTPServer '
+alias subl='open -a Sublime\ Text\ 2 '
 ##
 # Your previous /Users/eheyne/.bash_profile file was backed up as /Users/eheyne/.bash_profile.macports-saved_2013-11-18_at_19:24:53
 ##
