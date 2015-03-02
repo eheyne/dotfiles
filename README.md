@@ -47,6 +47,12 @@ ln -s ~/dotfiles/.vim .vim
 ln -s ~/dotfiles/.vimrc .vimrc
 ```
 
+#### Install bash-completion
+
+```bash
+brew install git bash-completion
+```
+
 #### Update all submodules at once
 
 ```bash
