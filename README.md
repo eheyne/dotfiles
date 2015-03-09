@@ -53,6 +53,12 @@ ln -s ~/dotfiles/.vimrc .vimrc
 brew install git bash-completion
 ```
 
+#### Install Silver Searcher
+
+```bash
+brew install the_silver_searcher
+```
+
 #### Update all submodules at once
 
 ```bash
