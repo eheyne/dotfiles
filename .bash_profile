@@ -41,3 +41,6 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
+
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"
