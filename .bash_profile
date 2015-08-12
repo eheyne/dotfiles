@@ -6,7 +6,7 @@ export GREP_OPTIONS='--color=auto'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/bin:/usr/local/sbin
 export NODE_PATH=/usr/local/lib/node:/usr/local/lib/node_modules
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
