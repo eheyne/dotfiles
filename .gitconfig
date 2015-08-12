@@ -1,0 +1,30 @@
+# This is Git's per-user configuration file.
+[core]
+# Please adapt and uncomment the following lines:
+#	user = Ed Heyne
+#	email = eheyne@edh3.local
+[user]
+	name = Edward Heyne
+	email = eheyne@virtualhold.com
+[merge]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = diffmerge --merge\n--result=$MERGED $LOCAL $BASE $REMOTE
+	trustExitCode = true
+[core]
+	excludesfile = /Users/eheyne/.gitignore_global
+	editor = vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
