@@ -36,11 +36,11 @@ alias subl='open -a Sublime\ Text\ 2 '
 ##
 
 # MacPorts Installer addition on 2013-11-18_at_19:24:53: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=$PATH:/opt/local/bin:/opt/local/sbin
 # Finished adapting your PATH environment variable for use with MacPorts.
 
-export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/bin:$PATH
+export PATH=$PATH:/usr/local/sbin
+export PATH=$PATH:/usr/local/bin
 
 bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"

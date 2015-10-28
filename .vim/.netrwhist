@@ -1,2 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/eheyne/Projects/vht/ConfigurationManagement/app/ui/templates/queues/variable-groups'
+let g:netrw_dirhist_2='/Users/eheyne/Projects/vht/ConfigurationManagement/app/ui/templates/queues'
+let g:netrw_dirhist_3='/Users/eheyne/Projects/vht/ConfigurationManagement/app/ui/templates'
+let g:netrw_dirhist_4='/Users/eheyne/Projects/vht/ConfigurationManagement/app/ui/templates/licensing'
+let g:netrw_dirhist_5='/usr/share/vim/vim73/doc'
+let g:netrw_dirhist_6='/Users/eheyne/Projects/vht/ConfigurationManagement/app/ui/scripts/views/segments'
+let g:netrw_dirhist_7='/Users/eheyne/Projects/vht/navigator_ui/app'
