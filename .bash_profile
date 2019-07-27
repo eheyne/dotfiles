@@ -13,6 +13,7 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
         . `brew --prefix`/etc/bash_completion
 fi
 
+source $(brew --prefix)/etc/bash_completion.d/git-prompt.sh
 
 PS1='\[\033[01;32m\]\u\[\033[0;33m\]@\[\033[0;35m\]\h\[\033[00m\] \[\033[01;34m\]\w\[\033[00m\] $(__git_ps1 "\[\033[01;33m\](%s)\[\033[00m\]"): '
 
